@@ -20,7 +20,7 @@ export class EditProfileComponent implements OnInit {
   nombre_user = ''
 
   ///despues del más se tiene que poner el codigo que devuelve el api, para la imagen que está almacenada en el server
-  imagenresource = 'https://raw.githubusercontent.com/bkevin1052/ZuperApp/master/ZuperApp/icons/ZuperApp.png';
+  imagenresource = 'https://raw.githubusercontent.com/bkevin1052/SOMANI-Web/master/ZuperApp/icons/ZuperApp.png';
 
 
   cookie!: PerfilUsuario;

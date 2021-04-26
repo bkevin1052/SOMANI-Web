@@ -12,7 +12,7 @@ export class ChangePasswordComponent implements OnInit {
 
 
   form_cambiocontrasenia!: FormGroup;
-  imagenresource = 'https://raw.githubusercontent.com/bkevin1052/ZuperApp/master/ZuperApp/icons/ZuperApp.png';
+  imagenresource = 'https://raw.githubusercontent.com/bkevin1052/SOMANI-Web/master/ZuperApp/icons/ZuperApp.png';
 
   constructor(private fb:FormBuilder,
     private APIService:UpdateProfilePassword,private route:Router) {
